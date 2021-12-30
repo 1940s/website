@@ -450,8 +450,7 @@ body {
   background-repeat: no-repeat;
   height: 30vw;
   width: 115vw;
-  box-sizing: border-box;
-  border: solid 1px rgb(255, 255, 255);
+
   z-index: 1;
   
 }
