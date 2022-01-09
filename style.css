@@ -190,7 +190,7 @@ body {
   position: relative;
   width: 45%;
   height: 0;
-  padding-bottom: 22.5%;
+  padding-bottom: 25.5%;
   background-color: #ffffff;
 
 
@@ -208,71 +208,58 @@ body {
   display: flex;
   margin: auto;
   position: absolute;
-  bottom: 0.5%;
+  bottom: 1.3%;
   left: 0.5%;
   text-align: end;
   justify-content: left;
   place-items: center;
   height: 1.5vw;
-  
-
 }
-.video1 {
+
+.video_item {
   margin-top: 0px;
   margin-left: 0px;
 	background-color:#d0451b;
-	border-radius:5px;
+	border: 0;
+  border-color: #ffffff;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:5px;
-	padding:0.3vw 0.8vw;
+	font-size:4px;
+	padding:0.5vw 0.8vw;
 	text-decoration:none;
 }
-.video1:hover {
+.video_item:hover {
 	background-color:#e6d5aa;
 }
-.video1:active {
-	position:relative;
-	top:1px;
-}
-.video2 {
-  margin-left:0.5vw;
-	background-color:#d0451b;
-	border-radius:5px;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:5px;
-	padding:0.3vw 0.8vw;
-	text-decoration:none;
-}
-.video2:hover {
-	background-color:#e6d5aa;
-}
-.video2:active {
-	position:relative;
-	top:1px;
-}
-.video3 {
-  margin-left:0.5vw;
-	background-color:#d0451b;
-	border-radius:5px;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:5px;
-	padding:0.3vw 0.8vw;
-	text-decoration:none;
-}
-.video3:hover {
-	background-color:#e6d5aa;
-}
-.video3:active {
+.video_item:active {
 	position:relative;
 	top:1px;
 }
 
+.link{
+  display: flex;
+  margin: auto;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  background-image: url("https://raw.githubusercontent.com/itsactuallykiki/forWebsite/main/b4.png");
+}
+.link01{
+  position: relative;
+  display: flex;
+  margin: 0;
+  top: 25vw;
+  left:78vw ;
+}
+.link02{
+  position: relative;
+  display: flex;
+  margin: 0;
+  top: 25vw;
+  left: 75vw ;
+}
 
 
 /*章節文字介紹*/
@@ -1260,3 +1247,5 @@ body {
   opacity: 1;
   visibility: visible;
 }
+
+/*video*/

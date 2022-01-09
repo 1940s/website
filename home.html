@@ -12,10 +12,12 @@
     <script src='https://unpkg.com/three@0.108.0/build/three.js'></script>
     <script src='https://unpkg.com/three@0.108.0/examples/js/controls/OrbitControls.js'></script>
     <script src='https://unpkg.com/three@0.108.0/examples/js/loaders/GLTFLoader.js'></script>
+    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jplayer/2.9.2/jplayer/jquery.jplayer.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jplayer/2.9.2/add-on/jplayer.playlist.min.js"></script>
 
     <!-- Back to top button -->
     <a id="button"></a>
-
     <div class="page1" id="home">
         <div class="page1_box">
           <div class="logo"></div>
@@ -32,17 +34,19 @@
         </div>
     </div>
     <!--/*modify*/-->
-
+    <div class="link">
+      <div class="link02"><a href="https://drive.google.com/file/d/1BsLWao--DO6yXOiGANvzanyJex1CZ3hx/view?usp=sharing"><img src="https://raw.githubusercontent.com/itsactuallykiki/forWebsite/main/pc_2.png" height="70vw" width="70vw"></a></div>
+      <div class="link01"><a href="https://drive.google.com/file/d/1y3aLiOecvClEl4MBxTs_uQY_DRTobQcE/view?usp=sharing"><img src="https://raw.githubusercontent.com/itsactuallykiki/forWebsite/main/vr_2.png" height="70vw" width="70vw"></a></div>
+    </div>
     <div class="page3" id="introduce">
         <div class="subp3_1">
           <div class='video'>
-            <iframe src='https://www.youtube.com/embed/xeav55gqBGE' frameborder='0' allow="autoplay; encrypted-media" allowfullscreen>
+            <iframe id="video" src='https://www.youtube.com/embed/5mJlMfThQiA' frameborder='0' allow="autoplay; encrypted-media" allowfullscreen>
               
             </iframe>
             <div class="subp3_2">
-              <a class="video1">video1</a>
-              <a class="video2">video2</a>
-              <a class="video3">video3</a>            
+              <button type="button" class="video_item" onclick="changeIframe(0)">前導影片</button>
+              <button type="button" class="video_item" onclick="changeIframe(1)">試玩影片</button>           
           </div>
           </div>
           <div>&ensp;&ensp;&ensp;</div>
@@ -53,10 +57,6 @@
               <span class="textp3_1">到</span><span class="textp3_2">展場</span><span class="textp3_3">  知悉自由受限後無法聲張的藝術,</span><br>
               <span class="textp3_1">到</span><span class="textp3_2">戰場</span><span class="textp3_3">  感受戰爭始末充斥的殘忍與無奈......</span>
             </div>
-            <div>
-              <div class="linkp3_1"></div>
-              <div class="linkp3_2"></div>
-            </div>  
               
           </div>
         </div>

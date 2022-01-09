@@ -22,3 +22,13 @@ $closeBtnsArr.forEach(function($btn) {
   });
 });
 
+/*video*/
+var urls = [
+  'https://www.youtube.com/embed/5mJlMfThQiA',
+  'https://www.youtube.com/embed/AlhEt7FYkIM' 
+
+];
+
+function changeIframe(index){
+  document.getElementById("video").setAttribute('src', urls[index]);
+}
