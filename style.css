@@ -5,7 +5,7 @@ body {
   font-family: 'cwTeXFangSong';
   background-color: rgb(71, 71, 71);
   overflow-x: hidden;
- /* overflow: hidden;
+/*  overflow: hidden;
   overflow-y: scroll;*/
 }
 @font-face {
@@ -18,12 +18,12 @@ body {
        url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.woff) format('woff'),
        url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.ttf) format('truetype');
 }
-
+/*
 *{
   outline: solid rgb(4, 217, 245) 1px !important;
   color: #fff !important;
 }
-
+*/
 
 /*1940s*/
 .page1 {
@@ -190,7 +190,7 @@ body {
   position: relative;
   width: 45%;
   height: 0;
-  padding-bottom: 22.5%;
+  padding-bottom: 25.5%;
   background-color: #ffffff;
 
 
@@ -208,71 +208,58 @@ body {
   display: flex;
   margin: auto;
   position: absolute;
-  bottom: 0.5%;
+  bottom: 1.3%;
   left: 0.5%;
   text-align: end;
   justify-content: left;
   place-items: center;
   height: 1.5vw;
-  
-
 }
-.video1 {
+
+.video_item {
   margin-top: 0px;
   margin-left: 0px;
 	background-color:#d0451b;
-	border-radius:5px;
+	border: 0;
+  border-color: #ffffff;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:5px;
-	padding:0.3vw 0.8vw;
+	font-size:4px;
+	padding:0.5vw 0.8vw;
 	text-decoration:none;
 }
-.video1:hover {
+.video_item:hover {
 	background-color:#e6d5aa;
 }
-.video1:active {
-	position:relative;
-	top:1px;
-}
-.video2 {
-  margin-left:0.5vw;
-	background-color:#d0451b;
-	border-radius:5px;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:5px;
-	padding:0.3vw 0.8vw;
-	text-decoration:none;
-}
-.video2:hover {
-	background-color:#e6d5aa;
-}
-.video2:active {
-	position:relative;
-	top:1px;
-}
-.video3 {
-  margin-left:0.5vw;
-	background-color:#d0451b;
-	border-radius:5px;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:5px;
-	padding:0.3vw 0.8vw;
-	text-decoration:none;
-}
-.video3:hover {
-	background-color:#e6d5aa;
-}
-.video3:active {
+.video_item:active {
 	position:relative;
 	top:1px;
 }
 
+.link{
+  display: flex;
+  margin: auto;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  background-image: url("https://raw.githubusercontent.com/itsactuallykiki/forWebsite/main/b4.png");
+}
+.link01{
+  position: relative;
+  display: flex;
+  margin: 0;
+  top: 25vw;
+  left:78vw ;
+}
+.link02{
+  position: relative;
+  display: flex;
+  margin: 0;
+  top: 25vw;
+  left: 75vw ;
+}
 
 
 /*章節文字介紹*/
@@ -345,7 +332,7 @@ body {
   
   background-image: url("https://raw.githubusercontent.com/itsactuallykiki/forWebsite/main/b5.png");
 
-
+  z-index: 1;
 }
 .subp5{
   display: flex;
@@ -377,10 +364,11 @@ body {
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
+  z-index: 3;
   
   background-image: url("https://aliceinsomnia.github.io/svg/problem.jpg");
-  box-sizing: border-box;
-  border: solid 1px red;
+/*  box-sizing: border-box;
+  border: solid 1px red;*/
 }
 
 .page6_radition
@@ -388,18 +376,20 @@ body {
   display: flex;
   margin: 0;
   position: relative;
-  left: 1vw;
-  top: 1vw;
-  height: 55vw;
+  left:-2vw;
+  top: 0vw;
+  height: 72vw;
   width: 95vw;
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   z-index: 0;
 
-  box-sizing: border-box;
-  border: solid 1px red;
+/*  box-sizing: border-box;
+  border: solid 1px red;*/
 }
+
+/*
 .page6_flyplane
 {
   display: flex;
@@ -411,15 +401,16 @@ body {
   overflow: hidden;
   
 
+  
+  left: -110vw;
+  top: 0vw;
   height: 30vw;
   width: 15vw;
-  left: -110vw;
-  top: 13vw;
   z-index: 1;
 
   box-sizing: border-box;
   border: solid 1px red;
-}
+}*/
 .page6_redCloudBack{
   display: flex;
   margin: 0;
@@ -434,24 +425,96 @@ body {
   width: 120vw;
   left: -95.3vw;
   top: 23vw;
-  z-index: 0;
+  z-index: 1;
 
-  box-sizing: border-box;
-  border: solid 1px red;
+ /* box-sizing: border-box;
+  border: solid 1px red;*/
 }
 .page6_redCloudFull{
   display: flex;
   margin: 0;
   position: relative;
-  left: -215vw;
+  left: -240vw;
   top: 34vw;
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   height: 30vw;
   width: 115vw;
-  box-sizing: border-box;
-  border: solid 1px rgb(255, 255, 255);
+
+  z-index: 2;
+  
+}
+.page6_text
+{
+  display: flex;
+  margin: 0;
+  position: relative;
+  left: -300%;
+  top: 18vw;
+  height: 10vw;
+  width: 30vw;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+
+/*  box-sizing: border-box;
+  border: solid 1px red;*/
+}
+.page6_leftRedCloud{
+  display: flex;
+  margin: 0;
+  position: relative;
+  left: -117vw;
+  top: 48vw;
+  height: 42vw;
+  width: 35vw;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+.page6_leftWhiteCloud{
+  display: flex;
+  margin: 0;
+  position: relative;
+  left: -367vw;
+  top: -3.2vw;
+  height: 35vw;
+  width: 30vw;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.page6_rightWhiteCloud{
+  display: flex;
+  margin: 0;
+  position: relative;
+  left: -306vw;
+  top: -2.5vw;
+  height: 35vw;
+  width: 30vw;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+/*  box-sizing: border-box;
+  border: solid 1px red;*/
+}
+.page6_whiteCloudFull{
+  display: flex;
+  margin: 0;
+  position: relative;
+  left: -412vw;
+  top: -9vw;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 25vw;
+  width: 115vw;
+
   z-index: 1;
   
 }
@@ -460,38 +523,54 @@ body {
 .page7 {
   display: flex;
   margin: auto;
-  justify-content: space-between;
-  justify-content: space-around;
-  place-items: flex-end normal;
+  
 
   height: 60vw;
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   
-  background-image: url("https://aliceinsomnia.github.io/svg/1.jpg");
+/*  background-image: url("https://aliceinsomnia.github.io/svg/1.jpg");*/
+  z-index: 1;
+}
+.page7_2{
+  z-index: 0;
+  display: flex;
+  position: relative;
+  height: 63.5vw;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .page7_person{
   display: flex;
   position: relative;
   margin: 0;
-  height: 45vw;
-  width: 18vw;
+  left: -60vw;
+  top: 15vw;
+  height: 40vw;
+  width: 35vw;
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
+/*  box-sizing: border-box;
+  border: solid 1px red;*/
 
 }
 .page7_question{
   display: flex;
   position: relative;
   margin: 0;
-  height: 22vw;
+  height: 20vw;
   width: 22vw;
+  left: -50vw;
+  top: 40vw;
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   cursor:pointer;
+/*  box-sizing: border-box;
+  border: solid 1px red;*/
 
 }
 .page7_question:hover{
@@ -595,8 +674,8 @@ body {
   height: 22vw;
   width: 22vw;
   position: relative;
-  top: 13vw;
-  left: 15vw;
+  top: 25vw;
+  left: 32.5vw;
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -869,8 +948,10 @@ body {
 }
 .el__text {
   text-transform: uppercase;
-  font-size: 35px;
-  color: #fff;
+  font-size: 42px;
+  font-weight:bold;
+  color: rgb(224, 224, 224);
+
 }
 .el__close-btn {
   z-index: -1;
@@ -997,7 +1078,7 @@ body {
 }
 .el:nth-child(1) .el__bg:before {
   transition-delay: 0s;
-  background-image: url("https://raw.githubusercontent.com/itsactuallykiki/forWebsite/main/all_final.png");
+  background-image: url("https://raw.githubusercontent.com/itsactuallykiki/forWebsite/main/1_nowords.png");
 
 }
 .el:nth-child(2) {
@@ -1017,7 +1098,7 @@ body {
 }
 .el:nth-child(2) .el__bg:before {
   transition-delay: 0.1s;
-  background-image: url("https://raw.githubusercontent.com/itsactuallykiki/forWebsite/main/all_final.png");
+  background-image: url("https://raw.githubusercontent.com/itsactuallykiki/forWebsite/main/2_nowordsRE3.png");
 }
 .el:nth-child(3) {
   transform: translate3d(210.4166666667%, 0, 0);
@@ -1036,7 +1117,7 @@ body {
 }
 .el:nth-child(3) .el__bg:before {
   transition-delay: 0.2s;
-  background-image: url("https://raw.githubusercontent.com/itsactuallykiki/forWebsite/main/all_final.png");
+  background-image: url("https://raw.githubusercontent.com/itsactuallykiki/forWebsite/main/3_nowords.png");
 }
 .el:nth-child(4) {
   transform: translate3d(315.625%, 0, 0);
@@ -1055,7 +1136,7 @@ body {
 }
 .el:nth-child(4) .el__bg:before {
   transition-delay: 0.3s;
-  background-image: url("https://raw.githubusercontent.com/itsactuallykiki/forWebsite/main/all_final.png");
+  background-image: url("https://raw.githubusercontent.com/itsactuallykiki/forWebsite/main/4_nowords.png");
 }
 
 .el:hover .el__bg:after {
@@ -1075,6 +1156,46 @@ body {
   transition-delay: 0.6s;
   transform: scale(1.1);
 }
+.el__words1 {
+  position:absolute;
+  top:50%;
+  right: 150px;
+  font-size: 24px;
+  line-height: 120%;
+  color: #f1efee;
+}
+.el__words2 {
+  position:absolute;
+  top:30%;
+  right: 100px;
+  font-size: 24px;
+  line-height: 120%;
+
+  color: #f1efee;
+}
+.el__words3 {
+  position:absolute;
+  top:50%;
+  left:150px;
+  font-size: 24px;
+  line-height: 120%;
+
+  color: #f1efee;
+}
+
+.el__words4 {
+  position:absolute;
+  top:50%;
+  left:150px;
+  font-size: 24px;
+  line-height: 120%;
+
+  color: #f1efee;
+}
+
+
+
+
 
 /*回到頂部*/
 #button {
@@ -1126,3 +1247,5 @@ body {
   opacity: 1;
   visibility: visible;
 }
+
+/*video*/
