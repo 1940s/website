@@ -450,7 +450,7 @@ body {
   display: flex;
   margin: 0;
   position: relative;
-  left: -300vw;
+  left: -300%;
   top: 18vw;
   height: 10vw;
   width: 30vw;
