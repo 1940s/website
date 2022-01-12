@@ -26,8 +26,8 @@ $closeBtnsArr.forEach(function($btn) {
 var urls = [
   'https://www.youtube.com/embed/5mJlMfThQiA',
   'https://www.youtube.com/embed/AlhEt7FYkIM',
-  'https://www.youtube.com/embed/5mJlMfThQiA',
-  'https://www.youtube.com/embed/5mJlMfThQiA' 
+  'https://www.youtube.com/embed/uPQ7bsIW3gc',
+  'https://www.youtube.com/embed/9M2zMz0JJbM' 
 
 ];
 
