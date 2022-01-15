@@ -551,14 +551,17 @@ figure {
   margin: 0;
   left: -60vw;
   top: 15vw;
-  height: 40vw;
-  width: 35vw;
+  height: 48vw;
+  width: 23vw;
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
-/*  box-sizing: border-box;
-  border: solid 1px red;*/
-
+  box-sizing: border-box;
+  border: solid 1px red;
+}
+#page7_personsize{
+  height: 48vw;
+  width: 23vw;
 }
 .page7_question{
   display: flex;
@@ -578,6 +581,10 @@ figure {
 }
 .page7_question:hover{
   transform: scale(1.1);
+}
+#page7_questionsize{
+  height: 20vw;
+  width: 22vw;
 }
 
 /*問題二*/
@@ -687,6 +694,10 @@ figure {
 }
 .page10_question:hover{
   transform: scale(1.1);
+}
+#page10_questionsize{
+  height: 22vw;
+  width: 22vw;
 }
 
 /*成員介紹*/
