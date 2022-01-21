@@ -556,8 +556,8 @@ figure {
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
-  box-sizing: border-box;
-  border: solid 1px red;
+/*  box-sizing: border-box;
+  border: solid 1px red;*/
 }
 #page7_personsize{
   height: 48vw;
